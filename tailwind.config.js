@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        rose: colors.rose,
+        'ptec-blue': '#16485B'
       }
     }
   },

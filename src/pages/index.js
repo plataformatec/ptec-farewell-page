@@ -1,5 +1,10 @@
 import * as React from "react"
-
+import dashbit_logo from "/src/images/dashbit-logo.png"
+import sourcelevel_logo from "/src/images/sourcelevel-logo.png"
+import josevalim from "/src/images/josevalim.jpg"
+import georgeguimaraes from "/src/images/georgeguimaraes.jpg"
+import marcelopark from "/src/images/marcelopark.jpg"
+import marcelopark_image from "/src/images/marcelopark-image.jpg"
 
 export default function Index() {
   return (
@@ -7,15 +12,14 @@ export default function Index() {
       <div class="relative px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">
           <h1>
-            <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Announcement</span>
-            <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Plataformatec Has Closed Its Operations.</span>
+            <span class="block text-base text-center text-ptec-blue font-semibold tracking-wide uppercase">Announcement</span>
+            <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-ptec-blue sm:text-4xl">Plataformatec Has Closed Its Operations.</span>
           </h1>
         </div>
         <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-          <p>After 12 years delivering high quality projects in Ruby and Elixir to dozens of clients in Brazil, USA, and Europe, Plataformatec has been acquirehired by Nubank.</p>
+          <p>In January 2020, after 11 years delivering high quality projects in Ruby and Elixir to dozens of clients in Brazil, USA, and Europe, Plataformatec has been <a href="https://medium.com/building-nubank/tech-perspectives-behind-nubanks-first-acquisition-deal-what-this-business-move-means-and-how-it-d7d1233c72b8">acqui-hired by Nubank</a>, the first <a href="https://labsnews.com/en/news/business/with-last-funding-nubank-is-the-first-startup-in-brazil-to-be-valued-at-10bi/">decacorn in Brazil</a>.</p>
 
-          <p>Nubank </p>
-
+          <p>You can still check the content on our blog at <a href="https://blog.plataformatec.com.br">https://blog.plataformatec.com.br</a>.</p>
 
 
         </div>
@@ -24,7 +28,7 @@ export default function Index() {
 
   <div class="relative max-w-7xl mx-auto">
     <div class="text-center">
-      <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+      <h2 class="text-3xl tracking-tight font-extrabold text-ptec-blue sm:text-4xl">
         What's next?
       </h2>
       <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
@@ -35,47 +39,38 @@ export default function Index() {
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt=""/>
+              <a href="https://dashbit.co">
+                <img class="h-48 w-full object-contain" src={dashbit_logo} alt="Dashbit Logo"/>
+              </a>
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline">
-                Article
-              </a>
-            </p>
-            <a href="#" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">
-                Boost your conversion rate
+            <a href="https://dashbit.co" class="block mt-2">
+              <p class="text-xl font-semibold text-ptec-blue">
+                Dashbit
               </p>
               <p class="mt-3 text-base text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
+    José Valim has openened a new company to help startups and enterprises adopt and run Elixir in production. 
               </p>
             </a>
           </div>
           <div class="mt-6 flex items-center">
             <div class="flex-shrink-0">
               <a href="#">
-                <span class="sr-only">Roel Aufderehar</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
+                <span class="sr-only">José Valim</span>
+                <img class="h-10 w-10 rounded-full" src={josevalim} alt="José Valim picture"/>
               </a>
             </div>
             <div class="ml-3">
               <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline">
-                  Roel Aufderehar
+                <a href="https://twitter.com/josevalim" class="hover:underline">
+                  José Valim
                 </a>
               </p>
               <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-03-16">
-                  Mar 16, 2020
-                </time>
-                <span aria-hidden="true">
-                  &middot;
-                </span>
-                <span>
-                  6 min read
-                </span>
+                <a href="https://twitter.com/josevalim" class="hover:underline">
+                  @josevalim
+                </a>
               </div>
             </div>
           </div>
@@ -84,47 +79,39 @@ export default function Index() {
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt=""/>
+          <a href="https://plataformatec.com.br">
+            <img class="h-48 w-full object-contain" src={sourcelevel_logo} alt="SourceLevel Logo"/>
+          </a>
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
-            <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline">
-                Video
-              </a>
-            </p>
-            <a href="#" class="block mt-2">
+            <a href="https://sourcelevel.io" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
-                How to use search engine optimization to drive sales
+                SourceLevel
               </p>
               <p class="mt-3 text-base text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
+                George Guimarães has...
               </p>
             </a>
           </div>
           <div class="mt-6 flex items-center">
             <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Brenna Goyette</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
+              <a href="https://sourcelevel.io">
+                <span class="sr-only">George Guimarães</span>
+                <img class="h-10 w-10 rounded-full" src={georgeguimaraes} alt="George Guimarães picture"/>
               </a>
             </div>
             <div class="ml-3">
               <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline">
-                  Brenna Goyette
+                <a href="https://twitter.com/georgeguimaraes" class="hover:underline">
+                  George Guimarães
                 </a>
               </p>
               <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-03-10">
-                  Mar 10, 2020
-                </time>
-                <span aria-hidden="true">
-                  &middot;
-                </span>
-                <span>
-                  4 min read
-                </span>
+                <a href="https://twitter.com/georgeguimaraes" class="hover:underline">
+                  @georgeguimaraes
+                </a>
+
               </div>
             </div>
           </div>
@@ -133,48 +120,36 @@ export default function Index() {
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt=""/>
+          <a href="https://www.marcelopark.com.br">
+            <img class="h-48 w-full object-cover" src={marcelopark_image} alt=""/>
+            </a>
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <p class="text-sm font-medium text-indigo-600">
-              <a href="#" class="hover:underline">
-                Case Study
-              </a>
             </p>
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
-                Improve your customer experience
+                Marcelo Park
               </p>
               <p class="mt-3 text-base text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
+    Marcelo does consulting and advisory services to cofounders and heads in search for company growth.
               </p>
             </a>
           </div>
           <div class="mt-6 flex items-center">
             <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Daniela Metz</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
+              <a href="https://www.marcelopark.com.br/">
+                <span class="sr-only">Marcelo Park</span>
+                <img class="h-10 w-10 rounded-full" src={marcelopark} alt="Marcelo Park picture"/>
               </a>
             </div>
             <div class="ml-3">
               <p class="text-sm font-medium text-gray-900">
-                <a href="#" class="hover:underline">
-                  Daniela Metz
+                <a href="https://www.marcelopark.com.br/" class="hover:underline">
+                  Marcelo Park
                 </a>
               </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-02-12">
-                  Feb 12, 2020
-                </time>
-                <span aria-hidden="true">
-                  &middot;
-                </span>
-                <span>
-                  11 min read
-                </span>
-              </div>
             </div>
           </div>
         </div>

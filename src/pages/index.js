@@ -5,6 +5,8 @@ import josevalim from "/src/images/josevalim.jpg"
 import georgeguimaraes from "/src/images/georgeguimaraes.jpg"
 import marcelopark from "/src/images/marcelopark.jpg"
 import marcelopark_image from "/src/images/marcelopark-image.jpg"
+import elixir_radar_logo from "/src/images/elixir-radar-logo.png"
+import hugobarauna from "/src/images/hugobarauna.jpg"
 
 export default function Index() {
   return (
@@ -34,7 +36,7 @@ export default function Index() {
           </p>
         </div>
 
-        <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+        <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-4 lg:max-w-none">
           <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
             <div class="flex-shrink-0">
               <a href="https://dashbit.co">
@@ -151,6 +153,47 @@ export default function Index() {
               </div>
             </div>
           </div>
+
+          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+            <div class="flex-shrink-0">
+              <a href="https://elixir-radar.com">
+                <img class="h-48 w-full object-contain" src={elixir_radar_logo} alt="Elixir Radar Logo" />
+              </a>
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <a href="https://elixir-radar.com" class="block mt-2">
+                  <p class="text-xl font-semibold text-ptec-blue">
+                    Elxir Radar
+                  </p>
+                  <p class="mt-3 text-base text-gray-500">
+                    Hugo Barauna turned Elixir Radar into a new company, to keep helping the Elixir ecosystem to move forward.
+                  </p>
+                </a>
+              </div>
+              <div class="mt-6 flex items-center">
+                <div class="flex-shrink-0">
+                  <a href="https://hugobarauna.com/">
+                    <span class="sr-only">Hugo Baraúna</span>
+                    <img class="h-10 w-10 rounded-full" src={hugobarauna} alt="Hugo Baraúna picture" />
+                  </a>
+                </div>
+                <div class="ml-3">
+                  <p class="text-sm font-medium text-gray-900">
+                    <a href="https://hugobarauna.com/" class="hover:underline">
+                      Hugo Baraúna
+                    </a>
+                  </p>
+                  <div class="flex space-x-1 text-sm text-gray-500">
+                    <a href="https://twitter.com/hugobarauna" class="hover:underline">
+                      @hugobarauna
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

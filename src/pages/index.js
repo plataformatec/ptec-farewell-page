@@ -17,7 +17,7 @@ export default function Index() {
           </h1>
         </div>
         <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-          <p>In January 2020, after 11 years delivering high quality projects in Ruby and Elixir to dozens of clients in Brazil, USA, and Europe, Plataformatec has been <a href="https://medium.com/building-nubank/tech-perspectives-behind-nubanks-first-acquisition-deal-what-this-business-move-means-and-how-it-d7d1233c72b8">acqui-hired by Nubank</a>, the first <a href="https://labsnews.com/en/news/business/with-last-funding-nubank-is-the-first-startup-in-brazil-to-be-valued-at-10bi/">decacorn in Brazil</a>.</p>
+          <p>In January 2020, after 11 years delivering high quality projects in Ruby and Elixir to dozens of clients in Brazil, USA, and Europe, Plataformatec was <a href="https://medium.com/building-nubank/tech-perspectives-behind-nubanks-first-acquisition-deal-what-this-business-move-means-and-how-it-d7d1233c72b8">acqui-hired by Nubank</a>, the first <a href="https://labsnews.com/en/news/business/with-last-funding-nubank-is-the-first-startup-in-brazil-to-be-valued-at-10bi/">decacorn in Brazil</a>.</p>
 
           <p>You can still check the content on our blog at <a href="http://blog.plataformatec.com.br">https://blog.plataformatec.com.br</a>.</p>
         </div>

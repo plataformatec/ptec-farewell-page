@@ -8,7 +8,7 @@
       "build": "gatsby build",
       "develop": "gatsby develop",
       "start": "gatsby develop",
-      "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+      "deploy": "gatsby build --prefix-paths && npx gh-pages -d public"
    },
    "description": "Plataformatec Farewell Page",
    "devDependencies": {

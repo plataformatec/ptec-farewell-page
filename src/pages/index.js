@@ -8,6 +8,7 @@ import marcelopark_image from "/src/images/marcelopark-image.jpg"
 
 export default function Index() {
   return (
+    <title>Plataformatec - Custom Software Development for companies using Elixir</title>
     <div class="relative py-16 bg-white overflow-hidden">
       <div class="relative px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">

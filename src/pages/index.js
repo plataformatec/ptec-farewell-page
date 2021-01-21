@@ -84,7 +84,7 @@ export default function Index() {
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <a href="https://sourcelevel.io" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">
+              <p class="text-xl font-semibold text-ptec-blue">
     SourceLevel
   </p>
   <p class="mt-3 text-base text-gray-500">
@@ -127,7 +127,7 @@ export default function Index() {
             <p class="text-sm font-medium text-indigo-600">
             </p>
             <a href="https://www.marcelopark.com.br" class="block mt-2">
-              <p class="text-xl font-semibold text-gray-900">
+              <p class="text-xl font-semibold text-ptec-blue">
     Marcelo Park
   </p>
   <p class="mt-3 text-base text-gray-500">

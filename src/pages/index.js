@@ -19,7 +19,7 @@ export default function Index() {
         <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
           <p>In January 2020, after 11 years delivering high quality projects in Ruby and Elixir to dozens of clients in Brazil, USA, and Europe, Plataformatec has been <a href="https://medium.com/building-nubank/tech-perspectives-behind-nubanks-first-acquisition-deal-what-this-business-move-means-and-how-it-d7d1233c72b8">acqui-hired by Nubank</a>, the first <a href="https://labsnews.com/en/news/business/with-last-funding-nubank-is-the-first-startup-in-brazil-to-be-valued-at-10bi/">decacorn in Brazil</a>.</p>
 
-          <p>You can still check the content on our blog at <a href="https://blog.plataformatec.com.br">https://blog.plataformatec.com.br</a>.</p>
+          <p>You can still check the content on our blog at <a href="http://blog.plataformatec.com.br">https://blog.plataformatec.com.br</a>.</p>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ export default function Index() {
           </div>
           <div class="mt-6 flex items-center">
             <div class="flex-shrink-0">
-              <a href="#">
+              <a href="https://twitter.com/josevalim">
                 <span class="sr-only">José Valim</span>
                 <img class="h-10 w-10 rounded-full" src={josevalim} alt="José Valim picture"/>
               </a>
@@ -77,7 +77,7 @@ export default function Index() {
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <a href="https://plataformatec.com.br">
+          <a href="https://sourcelevel.io">
             <img class="h-48 w-full object-contain" src={sourcelevel_logo} alt="SourceLevel Logo"/>
           </a>
         </div>
@@ -94,7 +94,7 @@ export default function Index() {
   </div>
   <div class="mt-6 flex items-center">
     <div class="flex-shrink-0">
-      <a href="https://sourcelevel.io">
+      <a href="https://twitter.com/georgeguimaraes">
         <span class="sr-only">George Guimarães</span>
         <img class="h-10 w-10 rounded-full" src={georgeguimaraes} alt="George Guimarães picture"/>
       </a>
@@ -126,7 +126,7 @@ export default function Index() {
           <div class="flex-1">
             <p class="text-sm font-medium text-indigo-600">
             </p>
-            <a href="#" class="block mt-2">
+            <a href="https://www.marcelopark.com.br" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">
     Marcelo Park
   </p>

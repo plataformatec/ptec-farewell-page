@@ -164,7 +164,7 @@ export default function Index() {
               <div class="flex-1">
                 <a href="https://elixir-radar.com" class="block mt-2">
                   <p class="text-xl font-semibold text-ptec-blue">
-                    Elxir Radar
+                    Elixir Radar
                   </p>
                   <p class="mt-3 text-base text-gray-500">
                     Hugo Baraúna turned Elixir Radar into a new company, to keep helping the Elixir ecosystem to move forward.

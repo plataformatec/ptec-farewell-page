@@ -23,7 +23,7 @@
       "gatsby": "^2.26.1",
       "gatsby-plugin-google-analytics": "^2.10.0",
       "gatsby-plugin-postcss": "^3.6.0",
-      "postcss": "^8.2.4",
+      "postcss": "^8.4.31",
       "react": "^16.13.1",
       "react-dom": "^16.13.1",
       "tailwindcss": "^2.0.2"

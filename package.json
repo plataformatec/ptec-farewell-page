@@ -18,7 +18,7 @@
    "author": "George Guimarães",
    "private": true,
    "dependencies": {
-      "@tailwindcss/typography": "^0.4.0",
+      "@tailwindcss/typography": "^0.5.10",
       "autoprefixer": "^10.2.3",
       "gatsby": "^5.13.1",
       "gatsby-plugin-google-analytics": "^5.13.0",

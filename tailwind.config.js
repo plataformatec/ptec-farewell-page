@@ -1,23 +1,16 @@
-const plugin = require('tailwindcss/plugin')
-const colors = require('tailwindcss/colors')
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: [
-    './src/**/*.html',
-    './src/**/*.js',
+  content: [
+    `./src/pages/**/*.{js,jsx,ts,tsx}`,
+    `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        'ptec-blue': '#16485B'
-      }
-    }
+        "ptec-blue": "#16485B",
+      },
+    },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

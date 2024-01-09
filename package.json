@@ -1,32 +1,34 @@
 {
-   "keywords": [
-      "gatsby"
-   ],
-   "scripts": {
-      "serve": "gatsby serve",
-      "clean": "gatsby clean",
-      "build": "gatsby build",
-      "develop": "gatsby develop",
-      "start": "gatsby develop",
-      "deploy": "gatsby build --prefix-paths && npx gh-pages -d public"
-   },
-   "description": "Plataformatec Farewell Page",
-   "devDependencies": {
-      "gh-pages": "^3.1.0"
-   },
-   "name": "plataformatec-farewell-page",
-   "author": "George Guimarães",
-   "private": true,
-   "dependencies": {
-      "@tailwindcss/typography": "^0.4.0",
-      "autoprefixer": "^10.2.3",
-      "gatsby": "^5.13.1",
-      "gatsby-plugin-google-analytics": "^5.13.0",
-      "gatsby-plugin-postcss": "^6.13.0",
-      "postcss": "^8.2.4",
-      "react": "^16.13.1",
-      "react-dom": "^16.13.1",
-      "tailwindcss": "^2.0.2"
-   },
-   "version": "1.0.0"
+  "name": "plataformatec-farewell-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "plataformatec-farewell-site",
+  "author": "George Guimarães",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "gatsby": "^5.13.1",
+    "gatsby-plugin-google-gtag": "^5.13.0",
+    "gatsby-plugin-postcss": "^6.13.0",
+    "postcss": "^8.4.33",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "typescript": "^5.1.6"
+  }
 }

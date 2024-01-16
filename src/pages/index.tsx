@@ -27,11 +27,11 @@ const IndexPage: React.FC<PageProps> = () => {
           <p>
             In January 2020, after 11 years delivering high quality projects in
             Ruby and Elixir to dozens of clients in Brazil, USA, and Europe,
-            Plataformatec was
+            Plataformatec was{" "}
             <a href="https://medium.com/building-nubank/tech-perspectives-behind-nubanks-first-acquisition-deal-what-this-business-move-means-and-how-it-d7d1233c72b8">
               acqui-hired by Nubank
             </a>
-            , the first
+            , the first{" "}
             <a href="https://labsnews.com/en/news/business/with-last-funding-nubank-is-the-first-startup-in-brazil-to-be-valued-at-10bi/">
               decacorn in Brazil
             </a>

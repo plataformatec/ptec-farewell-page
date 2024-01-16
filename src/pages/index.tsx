@@ -133,8 +133,7 @@ const IndexPage: React.FC<PageProps> = () => {
                   </p>
                   <p className="mt-3 text-base text-gray-500">
                     George Guimarães has created SourceLevel to bring
-                    observability into software development by bringing metrics
-                    on process and quality.
+                    observability into software engineering management.
                   </p>
                 </a>
               </div>

@@ -16,7 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.17",
     "gatsby": "^5.13.1",
     "gatsby-plugin-google-gtag": "^5.13.0",
     "gatsby-plugin-postcss": "^6.13.0",

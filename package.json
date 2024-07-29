@@ -17,19 +17,19 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
-    "gatsby": "^5.13.5",
+    "gatsby": "^5.13.7",
     "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
-    "postcss": "^8.4.38",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwindcss": "^3.4.3",
-    "@tailwindcss/typography": "^0.5.13"
+    "postcss": "^8.4.40",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.7",
+    "@tailwindcss/typography": "^0.5.10"
   },
   "devDependencies": {
-    "@types/node": "^20.12.12",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "typescript": "^5.4.5"
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "typescript": "^5.4.2"
   }
 }

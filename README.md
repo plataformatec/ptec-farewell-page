@@ -4,13 +4,7 @@ A static website announcing the closure of [Plataformatec](https://plataformatec
 
 ## About
 
-Plataformatec was a software consultancy founded in Brazil, known for creating the [Elixir programming language](https://elixir-lang.org/) and contributing significantly to the Ruby and Elixir ecosystems. In January 2020, the company was acqui-hired by [Nubank](https://nubank.com.br/).
-
-This farewell page showcases the founders' new ventures:
-- **[Dashbit](https://dashbit.co/)** - José Valim's Elixir consulting company
-- **[SourceLevel](https://sourcelevel.io/)** - George Guimarães' software engineering observability platform
-- **Marcelo Park** - Consulting and advisory services
-- **[Elixir Radar](https://elixir-radar.com/)** - Hugo Baraúna's newsletter covering the Elixir ecosystem
+Plataformatec was a software consultancy founded in Brazil, known for creating the [Elixir programming language](https://elixir-lang.org/) and contributing significantly to the Ruby and Elixir ecosystems. In January 2020, the company was acqui-hired by [Nubank](https://nubank.com.br/). This farewell page announces the closure and showcases what the founders are doing next.
 
 ## Tech Stack
 

@@ -160,4 +160,4 @@ colors: {
 
 ## License
 
-This project is proprietary to Plataformatec/Nubank.
+This project is proprietary to Plataformatec.

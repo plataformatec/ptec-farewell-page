@@ -139,7 +139,7 @@ const IndexPage: React.FC<PageProps> = () => {
               </div>
               <div className="mt-6 flex items-center">
                 <div className="flex-shrink-0">
-                  <a href="https://twitter.com/georgeguimaraes">
+                  <a href="https://georgeguimaraes.com">
                     <span className="sr-only">George Guimarães</span>
                     <img
                       className="h-10 w-10 rounded-full"
@@ -151,7 +151,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 <div className="ml-3">
                   <p className="text-sm font-medium text-gray-900">
                     <a
-                      href="https://twitter.com/georgeguimaraes"
+                      href="https://georgeguimaraes.com"
                       className="hover:underline"
                     >
                       George Guimarães
@@ -159,10 +159,10 @@ const IndexPage: React.FC<PageProps> = () => {
                   </p>
                   <div className="flex space-x-1 text-sm text-gray-500">
                     <a
-                      href="https://twitter.com/georgeguimaraes"
+                      href="https://georgeguimaraes.com"
                       className="hover:underline"
                     >
-                      @georgeguimaraes
+                      georgeguimaraes.com
                     </a>
                   </div>
                 </div>
